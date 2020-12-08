@@ -1,10 +1,12 @@
 package pattern.observer.stage2;
 
-import pattern.observer.stage2.User;
-
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *  Stage2
+ *  여러 방에 동시에 공지사항을 전달 할 경우
+ */
 public class Client {
     public static void main(String[] args) {
         User user = new User();
